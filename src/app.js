@@ -10,4 +10,4 @@ app.set('view engine','ejs');
 app.use(express.static(path.join(__dirname,'public')));
 app.get('/',(req,res)=> res.render('index',{title:'index'}));
 
-app.listen(4000,() => console.log("Listening to port 4000"));
+app.listen(3000,() => console.log("Listening to port 3000"));
